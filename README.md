@@ -51,12 +51,3 @@ Para expandir o bot para outros estados, siga estes passos:
 3. No dicionário 'historico_status', adicione a chave do estado.
 4. Crie um novo comando '@bot.tree.command' copiando a 
    estrutura dos comandos existentes.
-
----------------------------------------------------------
-6. CLASSIFICAÇÃO DE RESPOSTA
----------------------------------------------------------
-🟢 Normal:      <= 2s
-🟡 Lento:       <= 5s
-🟠 Muito lento: < 30s
-🔴 Temporal:    > 30s
-=========================================================
